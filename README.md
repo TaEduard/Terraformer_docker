@@ -1,6 +1,6 @@
 # Terraformer_docker
 
-This repository contains a Dockerfile that builds a Docker image with Terraform and Terraformer installed.
+This repository contains a Dockerfile that builds a Docker image with [Terraform](https://github.com/hashicorp/terraform) and [Terraformer](https://github.com/GoogleCloudPlatform/terraformer) installed.
 
 ## Getting Started
 
