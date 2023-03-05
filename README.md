@@ -1,4 +1,6 @@
-# Terraformer_docker
+# [Terraformer_docker](https://github.com/TaEduard/Terraformer_docker)
+
+[![Build and push docker image](https://github.com/TaEduard/Terraformer_docker/actions/workflows/docker.yaml/badge.svg?branch=main)](https://github.com/TaEduard/Terraformer_docker/actions/workflows/docker.yaml)
 
 This repository contains a Dockerfile that builds a Docker image with [Terraform](https://github.com/hashicorp/terraform) and [Terraformer](https://github.com/GoogleCloudPlatform/terraformer) installed.
 
