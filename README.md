@@ -6,6 +6,7 @@ This repository contains a Dockerfile that builds a Docker image with [Terraform
 To use the Docker Hub Hosted Image run the following commands:
 
 `docker pull taeduard/terraformer`
+
 `docker run --rm -it taeduard/terraformer`
 
 
