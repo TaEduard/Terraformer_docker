@@ -3,6 +3,11 @@
 This repository contains a Dockerfile that builds a Docker image with [Terraform](https://github.com/hashicorp/terraform) and [Terraformer](https://github.com/GoogleCloudPlatform/terraformer) installed.
 
 ## Getting Started
+To use the Docker Hub Hosted Image run the following commands:
+
+`docker pull taeduard/terraformer`
+`docker run --rm -it taeduard/terraformer`
+
 
 To build the Docker image, simply clone this repository and run the following command:
 `docker build -t terraformer .`
