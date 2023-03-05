@@ -35,13 +35,8 @@ jobs:
           # generate Docker tags based on the following events/attributes
           tags: |
             latest
-            type=schedule
             type=ref,event=branch
-            type=ref,event=pr
-            type=semver,pattern={{version}}
-            type=semver,pattern={{major}}.{{minor}}
-            type=semver,pattern={{major}}
-            type=sha
+
 
       # Runs a single command using the runners shell
       - name: Set up QEMU
